@@ -2,7 +2,7 @@ FROM alpine:edge
 
 MAINTAINER Chuanjian Wang <me@ckeyer.com>
 
-RUN apk add --update wget tar
+RUN apk add --update wget tar ca-certificates
 
 EXPOSE 2379 2380
 
